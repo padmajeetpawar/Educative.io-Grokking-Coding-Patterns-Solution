@@ -23,8 +23,6 @@ class InsertInterval {
         while ( i < intervals.size())
             mergedIntervals.add(intervals.get(i++));
 
-
-        //TODO: Write your code here
         return mergedIntervals;
     }
 
