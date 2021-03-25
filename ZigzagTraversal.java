@@ -6,11 +6,9 @@ class ZigzagTraversal {
     public static List<List<Integer>> traverse(TreeNode root) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
 
-        if(root == null)
-            return result;
+        if(root == null) return result;
 
         Queue<TreeNode> queue = new LinkedList<>();
-
         queue.offer(root);
         int count = 1;
         while (!queue.isEmpty()) {
