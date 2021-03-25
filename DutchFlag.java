@@ -3,8 +3,7 @@ package com.educative;
 public class DutchFlag {
 
     private static void sort(int[] arr) {
-        int high = arr.length - 1;
-        int low = 0;
+        int high = arr.length - 1, low = 0;
         int i = 0;
         while( i <= high ) {
             if(arr[i] == 0) {
