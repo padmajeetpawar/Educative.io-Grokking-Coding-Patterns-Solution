@@ -49,7 +49,7 @@ class ConnectAllSiblings {
         root.right.right = new TreeNode2(5);
         ConnectAllSiblings.connect(root);
 
-        // level order traversal using 'next' pointer
+        // level order traversal of returned output using 'next' pointer
         TreeNode2 current = root;
         System.out.println("Traversal using 'next' pointer: ");
         while (current != null) {
